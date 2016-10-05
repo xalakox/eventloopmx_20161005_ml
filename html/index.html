@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WordCloud</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<script type="text/javascript" src="data.js"></script>
+	<script type="text/javascript" src="wordcloud2.js"></script>
+	<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+	<style type="text/css">
+		h3 {
+			font-family: 'Ubuntu', sans-serif;
+		}
+	</style>
+</head>
+<body>
+
+<h3>AMLO</h3>
+<canvas id="amlo_canvas" class="canvas"></canvas>
+
+<h3>EPN</h3>
+<canvas id="epn_canvas" class="canvas"></canvas>
+
+<h3>JOSEFINA</h3>
+<canvas id="jvm_canvas" class="canvas"></canvas>
+
+<h3>CUADRI</h3>
+<canvas id="quadri_canvas" class="canvas"></canvas>
+
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		WordCloud(document.getElementById('amlo_canvas'), { list: data.amlo, fontFamily:"'Ubuntu', sans-serif"});
+		WordCloud(document.getElementById('epn_canvas'), { list: data.epn ,fontFamily:"'Ubuntu', sans-serif"});
+		WordCloud(document.getElementById('jvm_canvas'), { list: data.jvm ,fontFamily:"'Ubuntu', sans-serif"});
+		WordCloud(document.getElementById('quadri_canvas'), { list: data.quadri ,fontFamily:"'Ubuntu', sans-serif"});
+	});
+	
+</script>
+
+</body>
+</html>

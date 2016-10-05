@@ -1,0 +1,14 @@
+{
+	"amlo" : {
+		"nombres" : ["andres manuel", "lopez", "obrador"]
+	},
+	"jvm" : {
+		"nombres" : ["josefina", "vázquez", "vazquez", "vazques", "mota"]
+	},
+	"epn" : {
+		"nombres" : ["enrique", "peña nieto", "pena nieto"]
+	},
+	"quadri" :{
+		"nombres" : ["gabriel quadri", "gabriel cuadro", "javier cuadra", "quadri", "gabriel coria", "puyol"]
+	} 
+}
