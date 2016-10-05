@@ -1,0 +1,11 @@
+{
+  "name": "eventloop_ml",
+  "version": "1.0.0",
+  "description": "evento event loop MX 5 de octubre 2016",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Salvador Aceves Osuna",
+  "license": "ISC"
+}
